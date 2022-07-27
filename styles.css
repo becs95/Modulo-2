@@ -1,0 +1,399 @@
+body {
+    background-color: rgba(158, 241, 210, 0.827);
+    font-family: "Open Sans", sans-serif;
+    padding-top: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* primer header  !!!! */ 
+.main-nav {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+}
+.main-nav-bg-color {
+    background-color:rgb(169, 186, 235);
+}
+.header {
+    margin: 40px 20px 0;
+    font-size: 0;
+}
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+}
+.header li {
+    display: inline;
+    margin: 0 15px;
+}
+.header ul {
+    padding: 0;
+}
+.logodelu {
+    width: 100px;
+}
+.imagendelu {
+    width: 20%;
+}
+.navbar {
+    text-align: center;
+    color: none;
+    font-weight: 500;
+    font-family: 'Rajdhani', sans-serif;
+}
+.actions {
+  width: 20%;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.actions a {
+  color: #3ed2af;
+  text-decoration:solid;
+  margin: 0 15px;
+}
+
+/* aqui inicia el body*/
+
+.main h1 {
+    font-family: 'Pacifico', cursive;
+    color:rgb(37, 8, 56);
+    text-align:center;
+
+}
+.main  {
+    font-family: 'Rajdhani', sans-serif;
+    color:rgb(37, 8, 56);
+    text-align:center;
+}
+.main first-image {
+    width: 100%;
+    text-align: center;
+}
+.main button{
+    margin-left: -15px;
+    border-radius: 5px;
+    border: none;
+    padding: 16px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    background-color: #e28888cc;
+}
+.main button:hover{
+  background-color: antiquewhite;
+}
+
+    .main form input {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.main-nav-bg-color {
+  background-color: #ffffff;
+}
+
+/* aqui esta lo del video */
+
+.publish {
+    display: flex;
+    width: 95%;
+    margin: 10px auto;
+    align-items: center;
+    background-color: #8bd3f7;
+    position: relative;
+  }
+
+  .publish .publicidad .titulo-publish {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    font-weight: 90px;
+    color: #020303;
+    margin-top: 15px;
+  }
+  .publish .publicidad .texto {
+    font-family: 'Rajdhani', sans-serif;
+  }
+  .publish .publicidad .color-gris {
+    color: #8b8b8bcc;
+  }
+  .publish .video {
+    flex:1;
+    position: center;
+    align-items: flex-start;
+  }
+  .publish .video .video-contenedor {
+    width: 90%;
+  }
+  .publish .publicidad {
+    flex: 1;
+  }
+  
+  /* aqui va el gridy FLEXBOX*/
+
+  .carta-viajes h1 {
+    font-family: 'Pacifico', cursive;
+    text-align:center;
+  }
+
+  .features {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    height: 800px;
+    padding: 0% 0%;
+
+}
+
+.feature-card {
+    margin: 0 20px 20px;
+;
+}
+
+.feature-content {
+    background-color: rgb(221, 244, 244);
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    align-items: top;
+    overflow: hidden;
+}
+
+.feature-content .feature-text {
+    flex: 2;
+    padding: 15px 20px;
+}
+
+.feature-content .feature-text h3 { /*TITULO*/
+  font-family: 'Pacifico', cursive;
+  font-size: 24px;
+    color: #1bb4b7;
+    font-weight: 400;
+}
+.feature-content .feature-text p { /*TEXTO*/
+  font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+}
+.feature-content .feature-text a {
+  font-size: 16px;
+  color: #011063;
+  font-weight: 600;
+  text-decoration: none;
+}
+.feature-text figure {
+    margin-left: 0;
+
+}
+
+.feature-text figure img {
+    height: 150px;
+}
+.feature-content .feature-image {
+    flex: 2;
+}
+.feature-image figure img {
+    width: 150%;
+}
+
+
+/* carrusel bootastrap */
+
+.carrusel {
+padding-top: 250px;
+
+
+}
+
+/* Media queries */
+
+@media screen and (max-width: 426px) {
+  .main form {
+      margin-bottom: 25px;
+  }
+
+  .color-gris-seccion-inicial {
+      margin: 0;
+  }
+
+  .first-image {
+      width: 70%;
+  }
+
+  .second-image {
+      width: 100%;
+  }
+
+  /* .navbar,
+  .actions {
+      display: none;
+  } Esto se elimino para usar bo0otstrap*/
+
+  .main {
+      margin-top: 130px;
+  }
+
+  .main h1 {
+      font-size: 30px;
+  }
+
+  .publish {
+      flex-direction: column;
+      margin: 15px auto;
+      width: 90%;
+  }
+
+  .features {
+      height: fit-content;
+      grid-template: repeat(4, 1fr) / 1fr;
+  }
+}
+/* queries de megatravel publish-megainfo */ 
+
+.menu {
+  font-family: 'Rajdhani', sans-serif;
+	text-decoration: underline;
+	width: 100%;
+	color: rgb(10, 134, 145);
+	font-size: 18px;
+	background-color: #EAEAEA;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+  display: flex;
+}
+.menu a {
+	color: rgb(61, 119, 178);
+}
+#opcionesDest {
+	background-color: rgb(63, 116, 222);
+	float: left;
+	width: 160px;
+	margin-right: 15px;
+	padding-left: 5px;
+}
+#opcionesDest a {
+	display: block;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: #FFF;
+	font-size: 14px;
+	text-decoration: none;
+	float: left;
+	clear: both;
+	width: 100%;
+}
+#opcionesDest a:hover {
+	display: block;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: #FFF;
+	font-size: 14px;
+	text-decoration: underline;
+	float: left;
+	clear: both;
+	width: 100%;
+	background-color: #09C;
+}
+#iframe {
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 50px;
+	height:100%; 
+	width: 50%;
+	display:flexbox;
+	float: center ;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	background-repeat: repeat;
+	background-color: rgb(202, 233, 254);
+}
+ul#framemenu {
+	margin: 0px;
+	padding: 5px;
+	float: left;
+	width: 180px;
+}
+ul#framemenu li {
+	display: block;
+	list-style-type:none;
+}
+ul#framemenu li a {
+	color: #333;
+	text-decoration: none;
+	background-color: #EAEAEA;
+	display: block;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	padding: 5px;
+	border: 1px solid rgb(194, 235, 237);
+	font-size: 12px;
+}
+ul#framemenu li a:hover {
+	background-color: #28B1DF;
+	color: #FFF;
+}
+
+#megaConexion {
+	text-align: center;
+	padding: 0px;
+	width: 990px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	font-family: 'Rajdhani', sans-serif;
+}
+.tit{
+  font-family: 'Pacifico', cursive;
+  font-size: auto;
+    color: #1bb4b7;
+    font-weight: 400;
+    display: flex;
+    text-align: center;
+}
+
+.megacon .megam {
+  text-align: center;
+  display: inline-block;
+  width: 400px;
+  height: 420px;
+  background: #09C;
+  margin-bottom: 20px;
+}
+.mt .megacon .shadow{
+  display:flex
+  width: 400px;
+  height: 420px;
+  background: #09C;
+  margin-bottom: 20px;
+}
+
+.promos2 {
+  padding: 10%;
+  text-align: center;
+  display: flexbox;
+}
+
+.promos2 h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: auto;
+    color: #1bb4b7;
+    font-weight: 400;
+    display: flex;
+    text-align: center;
+}
+/* final del proyecto*/ 
+
+
+  

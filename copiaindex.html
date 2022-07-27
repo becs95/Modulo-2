@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <!-- llamando a megatravel reel-->
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />    
+    <!-- llamado a bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+    <!-- llamando a stilos sass-->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="app.js">
+    <link rel="stylesheet" href="app.scss">
+
+    <!-- LLAMANDO AL ESTILO DE letra-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
+
+      <title>Tu agencia de Viajes</title>
+  </head>
+    <!-- aqui esta la barra 1 -->
+
+  <body>
+    <!-- 
+    <section class="main-nav">
+      <header class="header">
+        <a href="/" class="imagendelu">
+            <img class="logodelu" src="images/logoindex.png" alt="Logo de Delusionstours">
+        </a>
+        <nav class="navbar">
+            <ul>
+                <li>Europa</li>
+                <li>Viajes Nacionales</li>
+                <li>Sudamerica</li>
+                <li>Norteamerica </li>
+                <li>Medio oriente</li>
+                <li>México </li>
+                <li>Otros servicios</li>
+            </ul>
+        </nav>
+        <div class="actions">
+          <a href="/">Tipo de cambio: 20.57 </a>
+      </div>
+      </header>
+    </section>
+  -->
+
+    <nav class="navbar navbar-expand-lg fixed-top main-nav-bg-color ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img class="logodelu" src="images/logoindex.png" alt="Logo de Delusionstours">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span> <!-- menu hamburgesa-->
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">europa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">viajes nacionales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sudamerica.html">Sudamerica</a>
+            </li>           <li class="nav-item">
+              <a class="nav-link" href="norteamerica.html">Norteamerica</a>
+            </li>           <li class="nav-item">
+              <a class="nav-link" href="oriente.html">Medio oriente</a>
+            </li>           <li class="nav-item">
+              <a class="nav-link" href="mex.html">Mexico</a>
+            </li>           <li class="nav-item">
+              <a class="nav-link" href="otros.html">Otros Destinos</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <div class="actions">
+              <a href="/">Tc:$20.57MXN </a>
+          </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- aqui termina la barra de navegacion -->
+
+  <!-- titulo -->
+<section class="main">
+        <h1>Tu agencia de Viajes</h1>
+        <h3>
+        Los viajes a tu alcance registrate para recibir nuestra revista digital 
+        </h3>
+        <form>
+          <input type="Agrega tu whatsApp" />
+          <button type="suscribir">
+              suscribirse &rarr;
+          </button>
+        </form>
+        <!-- aqui va la primera imagen -->
+        <figure>
+          <img class="first-image img-fluid" src="images/imagen3.png" alt="imagen1"> <!-- "img-fluid" fluido de bootstrap-->
+      </figure>
+</section>
+
+      <!-- aqui acaba la seccion 1 del proyecto -->
+
+      <!-- aqui pondremos un video-->
+<section class="publish">
+        <article class="video">
+          <iframe class=".embed-responsive"  src="https://www.youtube.com/embed/RyBl46aZUhY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </article>
+
+        <!-- Poner el texto de la publicidad -->
+        <article class="publicidad">
+            <h2 class="titulo-publish embed-responsive">Los viajes a europa mas deseados </h2>
+            <p class="texto embed-responsive">
+              ¿Quieres saber qué es Europamundo? ¿Quieres saber cómo funciona y cómo conseguimos que disfutéis al máximo de vuestros circuitos? Somos un equipo, un todo y así es cómo lo logramos. ¡Esto es Europamundo!
+              Todos y cada uno de nuestros provedores, son amigables con el planeta, y dan un servivio de alta calidad.
+              <br>
+              El Ecocampamento Solidario de Badian forma parte de una red de campamentos turísticos, que permiten a poblados remotos tener una instalación turística y oportunidad para conseguir empleo y desarrollo.
+            </p>
+        </article>
+  </section>
+    <br>
+
+
+<section class="carta-viajes">
+      <h1> Cartas de Viajes 2022 </h1>
+</section>
+
+<!-- aqui van a ir los paquetes mas vendidos GRID CONTEINER Y FLEXBOX-->
+    
+<section class="features ">
+        <!-- HARRY POTTER -->
+        <article class="feature-card">
+          <div class="feature-content">
+              <div class="feature-text">
+                  <figure>
+                      <img src="./images/harry1.jpg" alt="Publish icon">
+                  </figure>
+                  <h3>Harry Potter en escocia <br> 6 días </h3>
+                  <p>
+                    La Escocia de Harry Potter. Un viaje mágico por Escocia que nos transportará al fascinante mundo del famoso mago.
+                  </p>
+                  <a href="https://www.europamundo.com/Itinerario_Menu.aspx?em_multif=y&rutaid=4400&temp=2022">Desde $1,333 USD </a>
+              </div>
+                  <div class="feature-image">
+                    <figure>
+                        <img src="images/europa.png" alt="europa">
+                    </figure>
+                </div>
+              </div>
+      </article>    
+       <!-- Heroes -->
+      <article class="feature-card">
+        <div class="feature-content">
+            <div class="feature-text">
+                <figure>
+                    <img src="./images/heroes.jpg" alt="Publish icon">
+                </figure>
+                <h3> La Sombra de los Héroes <br> 5 días </h3>
+                <p>
+                  Descubre algunos de los escenarios más importantes de los dos grandes conflictos mundiales entre magníficas ciudades históricas. Si eres un amante de la historia es un viaje que no te puedes perder.
+                 </p>
+                 <a href="https://www.europamundo.com/Itinerario_Menu.aspx?em_multif=y&rutaid=4400&temp=2022">Desde $1,333 USD </a>
+            </div>
+                <div class="feature-image">
+                  <figure>
+                      <img src="images/europa.png" alt="europa">
+                  </figure>
+              </div>
+            </div>
+    </article>
+           <!-- hermanos grimm -->
+           <article class="feature-card">
+            <div class="feature-content">
+                <div class="feature-text">
+                    <figure>
+                        <img src="./images/heroes.jpg" alt="Publish icon">
+                    </figure>
+                    <h3> Ruta de los Cuentos, siguiendo las Huellas de los Hermanos Grimm <br> 4 días </h3>
+                    <p>
+                      Alemania tiene una importantísima tradición de cuentos. Este gran patrimonio cultural es digno de ser conocido y de profundizar en él. Conoceremos los lugares dónde nacieron y vivieron los hermanos Grimm                     </p>
+                     <a href="https://www.europamundo.com/Itinerario_Menu.aspx?em_multif=y&rutaid=4495&temp=2022">Desde $926 USD </a>
+                </div>
+                    <div class="feature-image">
+                      <figure>
+                          <img src="images/europa.png" alt="europa">
+                      </figure>
+                  </div>
+                </div>
+        </article>
+
+                <!-- Dracula.  -->
+                <article class="feature-card">
+                  <div class="feature-content">
+                      <div class="feature-text">
+                          <figure>
+                              <img src="./images/DRACULA.jpg" alt="Publish icon">
+                          </figure>
+                          <h3> Tras las huellas de Vlad Tepes DRACULA <br> 5 Días </h3>
+                          <p>
+                            Apasionante viaje por la misteriosa Transilvania donde la figura de Drácula será la protagonista. De su mano descubriremos la historia, leyendas, tradiciones, arte o gastronomía de un destino inolvidable.  
+                          </p>
+                           <a href="https://www.europamundo.com/Itinerario_Menu.aspx?em_multif=y&rutaid=4307&temp=2022">Desde $924 USD </a>
+                      </div>
+                          <div class="feature-image">
+                            <figure>
+                                <img src="images/europa.png" alt="europa">
+                            </figure>
+                        </div>
+                      </div>
+                  </div>
+              </article>             
+                         <!-- hermanos grimm -->
+           <article class="feature-card">
+            <div class="feature-content">
+                <div class="feature-text">
+                    <figure>
+                        <img src="./images/heroes.jpg" alt="Publish icon">
+                    </figure>
+                    <h3> Ruta de los Cuentos, siguiendo las Huellas de los Hermanos Grimm <br> 4 días </h3>
+                    <p>
+                      Alemania tiene una importantísima tradición de cuentos. Este gran patrimonio cultural es digno de ser conocido y de profundizar en él. Conoceremos los lugares dónde nacieron y vivieron los hermanos Grimm                     </p>
+                     <a href="https://www.europamundo.com/Itinerario_Menu.aspx?em_multif=y&rutaid=4495&temp=2022">Desde $926 USD </a>
+                </div>
+                    <div class="feature-image">
+                      <figure>
+                          <img src="images/europa.png" alt="europa">
+                      </figure>
+                  </div>
+                </div>
+        </article>
+
+                <!-- Dracula.  -->
+                <article class="feature-card">
+                  <div class="feature-content">
+                      <div class="feature-text">
+                          <figure>
+                              <img src="./images/DRACULA.jpg" alt="Publish icon">
+                          </figure>
+                          <h3> Tras las huellas de Vlad Tepes DRACULA <br> 5 Días </h3>
+                          <p>
+                            Apasionante viaje por la misteriosa Transilvania donde la figura de Drácula será la protagonista. De su mano descubriremos la historia, leyendas, tradiciones, arte o gastronomía de un destino inolvidable.  
+                          </p>
+                           <a href="https://www.europamundo.com/Itinerario_Menu.aspx?em_multif=y&rutaid=4307&temp=2022">Desde $924 USD </a>
+                      </div>
+                          <div class="feature-image">
+                            <figure>
+                                <img src="images/europa.png" alt="europa">
+                            </figure>
+                        </div>
+                      </div>
+                  </div>
+              </article>         
+            </section>
+
+<!-- aqui va el carrusel de bootstrap -->
+        <section class="carrusel container-fluid">
+          
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/banner1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/banner2 canada.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/banner3.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+              </button>
+            </div>
+         </section>
+
+      <!-- aqui termina el carrusel y empieza la seccion de paquetes -->
+            <!-- paquetes jquery-->
+      <section class="mt">
+        <div id="megaConexion">
+
+
+          <h1 id="titulo">Promociones de temporada</h1>
+          
+          <ul id="framemenu">
+            <li><a href="#promos" rel="https://www.megatravel.com.mx/tools/vi.php?" title="Promociones de temporada">Promociones</a></li>
+            <li><a href="#europa" rel="https://www.megatravel.com.mx/tools/vi.php?Dest=1" title="Viajes a Europa" >Europa</a></li>
+            <li><a href="#estados-unidos" rel="https://www.megatravel.com.mx/tools/vi.php?Dest=8"  title="Viajes a Estados Unidos">Estados Unidos</a></li>
+          <li><a href="#medio-Oriente" rel="https://www.megatravel.com.mx/tools/vi.php?Dest=2"  title="Viajes al Medio Oriente">Medio Oriente</a></li>	
+            <li><a href="#canada" rel="https://www.megatravel.com.mx/tools/vi.php?Dest=3"  title="Viajes a Canad�">Canad�</a></li>
+            <li><a href="#sudamerica" rel="https://www.megatravel.com.mx/tools/vi.php?Dest=7"  title="Viajes a Sudam�rica">Sudam�rica</a></li>
+            <li><a href="#centroamerica" rel="https://www.megatravel.com.mx/tools/vi.php?Dest=9"  title="Viajes a Centroam�rica">Centroam�rica</a></li>
+            <li><a href="#caribe" rel="https://www.megatravel.com.mx/tools/vi.php?Dest=10"  title="Viajes al Caribe">Caribe</a></li>
+            <li><a href="#nacionales" rel="https://www.megatravel.com.mx/tools/vi.php?Dest=11"  title="Viajes a Nacionales">Nacionales</a></li>
+            
+            <li><a href="#asia" rel="https://www.megatravel.com.mx/tools/vi.php?Dest=4"  title="Viajes Asia">Asia</a></li>
+            <li><a href="#africa" rel="https://www.megatravel.com.mx/tools/vi.php?Dest=5"  title="Viajes a �frica">�frica</a></li>
+            <li><a href="#pacifico" rel="https://www.megatravel.com.mx/tools/vi.php?Dest=6"  title="Viajes Pac�fico">Pac�fico</a></li>
+            <li><a href="#cruceros" rel=" https://www.megatravel.com.mx/tools/cruceros.php?"  title="Cruceros 2013">Cruceros</a></li>  
+          </ul>
+          <iframe src="https://www.megatravel.com.mx/tools/vi.php?txtColor=333333&aColor=333333&ahColor=FF6600&thBG=28B1DF&thTxColor=333333&ff=9" frameborder="0" scrolling="auto" id="iframe" class="shadow"></iframe>   
+          </div>
+      </section>
+
+
+      <section>
+        <h1> las mejores promociones </h1>
+        <iframe src="https://www.megatravel.com.mx/tools/ofertas-viaje.php?
+        Dest=&txtColor=1D1D1D&lblTPaq=9900FF&lblTRange=570090&
+        lblNumRange=9900FF&itemBack=D5D5D5&ItemHov=360058&txtColorHov=ffffff&ff=1"
+        width="800" height="1200" border="0"
+        align="center" allowtransparency="true" frameborder="0"> </iframe>
+      </section>
+
+<!-- llamado a js-->
+<script src="app.js"></script>
+<!-- links de bootstrap al final-->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+  <!-- mega link -->
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  </body>
+</html>
